@@ -1,6 +1,7 @@
 let single = document.getElementById("1Point");
 let five = document.getElementById("5Point")
 let ten = document.getElementById("10Point")
+let zero = document.getElementById("0point")
 let output = document.getElementById("total");
 let total = 0;
 
@@ -17,4 +18,9 @@ five.addEventListener("click", function () {
 ten.addEventListener("click", function () {
     let tens = total += 10;
     output.textContent = tens
+});
+
+zero.addEventListener("click", function () {
+    total = 0;
+    output.textContent = total;
 });
