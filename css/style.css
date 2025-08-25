@@ -10,17 +10,11 @@
 /* Body styles */
 /* Full viewport width and height, centered content */
 body {
+	background-color: rgb(124, 191, 232);
 	width: 100vw;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-}
-
-/* Canvas display size (CSS) */
-#game-canvas {
-	width: 800px; /* display width */
-	height: 600px; /* display height */
-	border: solid 1px black; /* border for visibility */
 }
