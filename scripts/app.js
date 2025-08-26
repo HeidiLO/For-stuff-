@@ -12,31 +12,36 @@ addCustom6th.addEventListener("click", function () {
     if (!isNaN(value)) {
         pointsix += value;
         output.textContent = pointsix;
-        updateTotalAll();
+        updatetotalmiddle();
+        updatetotalall ();
     }
 });
 single6th.addEventListener("click", function () {
    let totalsixth = pointsix += 1;
     output.textContent = totalsixth;
-     updateTotalAll();
+     updatetotalmiddle();
+     updatetotalall();
 });
 
 five6th.addEventListener("click", function () {
     let pointsixs = pointsix += 5;
     output.textContent = pointsixs;
-    updateTotalAll();
+    updatetotalmiddle();
+    updatetotalall();
 });
 
 ten6th.addEventListener("click", function () {
     let tens = pointsix += 10;
     output.textContent = tens;
-    updateTotalAll();
+    updatetotalmiddle();
+    updatetotalall();   
 });
 
 zero6th.addEventListener("click", function () {
     pointsix = 0;
     output.textContent = pointsix;
-     updateTotalAll();
+    updatetotalmiddle();
+    updatetotalall();
 });
 
 
@@ -54,31 +59,36 @@ addCustom7th.addEventListener("click", function () {
     if (!isNaN(value)) {
         totalseventh += value;
         output7.textContent = totalseventh;
-        updateTotalAll();
+        updatetotalmiddle();
+         updatetotalall();
     }
 });
 single7th.addEventListener("click", function () {
     let point = totalseventh += 1;
     output7.textContent = point;
-    updateTotalAll();
+    updatetotalmiddle();
+     updatetotalall();
 });
 
 five7th.addEventListener("click", function () {
     let points = totalseventh += 5;
     output7.textContent = points;
-    updateTotalAll();
+    updatetotalmiddle();
+     updatetotalall();
 });
 
 ten7th.addEventListener("click", function () {
     let tens = totalseventh += 10;
     output7.textContent = tens;
-    updateTotalAll();
+    updatetotalmiddle();
+     updatetotalall();
 });
 
 zero7th.addEventListener("click", function () {
     totalseventh = 0;
     output7.textContent = totalseventh;
-    updateTotalAll();
+    updatetotalmiddle();
+     updatetotalall();
 });
 
 let single8th = document.getElementById("1Point8th");
@@ -95,31 +105,36 @@ addCustom8th.addEventListener("click", function () {
     if (!isNaN(value)) {
         totaleighth += value;
         output8.textContent = totaleighth;
-        updateTotalAll();
+        updatetotalmiddle();
+         updatetotalall();
     }
 });
 single8th.addEventListener("click", function () {
     totaleighth += 1;
     output8.textContent = totaleighth;
-     updateTotalAll();
+     updatetotalmiddle();
+      updatetotalall();
 });
 
 five8th.addEventListener("click", function () {
     totaleighth += 5;
     output8.textContent = totaleighth;
-     updateTotalAll();
+     updatetotalmiddle();
+      updatetotalall();
 });
 
 ten8th.addEventListener("click", function () {
     totaleighth += 10;
     output8.textContent = totaleighth;
-     updateTotalAll();
+     updatetotalmiddle();
+      updatetotalall();
 });
 
 zero8th.addEventListener("click", function () {
     totaleighth = 0;
     output8.textContent = totaleighth;
-     updateTotalAll();
+     updatetotalmiddle();
+      updatetotalall();
 });
 
 let single9th = document.getElementById("1Point9th");
@@ -136,32 +151,37 @@ addCustom9th.addEventListener("click", function () {
     if (!isNaN(value)) {
         total9th += value;
         output9th.textContent = total9th;
-        updateTotalAll();
+        updatetotalhigh();
+         updatetotalall();
     }
 });
 
 single9th.addEventListener("click", function () {
     total9th += 1;
     output9th.textContent = total9th;
-     updateTotalAll();
+     updatetotalhigh();
+      updatetotalall();
 });
 
 five9th.addEventListener("click", function () {
     total9th += 5;
     output9th.textContent = total9th;
-     updateTotalAll();
+     updatetotalhigh();
+      updatetotalall();
 });
 
 ten9th.addEventListener("click", function () {
     total9th += 10;
     output9th.textContent = total9th;
-    updateTotalAll();
+    updatetotalhigh();
+     updatetotalall();
 });
 
 zero9th.addEventListener("click", function () {
     total9th = 0;
     output9th.textContent = total9th;
-    updateTotalAll();
+    updatetotalhigh();
+     updatetotalall();
 });
 
 let single10th = document.getElementById("1Point10th");
@@ -178,31 +198,36 @@ addCustom10th.addEventListener("click", function () {
     if (!isNaN(value)) {
         total10th += value;
         output10th.textContent = total10th;
-        updateTotalAll();
+        updatetotalhigh();
+         updatetotalall();
     }
 });
 single10th.addEventListener("click", function () {
     total10th += 1;
     output10th.textContent = total10th;
-     updateTotalAll();
+     updatetotalhigh();
+      updatetotalall();
 });
 
 five10th.addEventListener("click", function () {
     total10th += 5;
     output10th.textContent = total10th;
-    updateTotalAll();
+    updatetotalhigh();
+     updatetotalall();
 });
 
 ten10th.addEventListener("click", function () {
     total10th += 10;
     output10th.textContent = total10th;
-    updateTotalAll();
+    updatetotalhigh();
+     updatetotalall();
 });
 
 zero10th.addEventListener("click", function () {
     total10th = 0;
     output10th.textContent = total10th;
-    updateTotalAll();
+    updatetotalhigh();
+     updatetotalall();
 });
 
 
@@ -221,31 +246,36 @@ addCustom11th.addEventListener("click", function () {
     if (!isNaN(value)) {
         total11th += value;
         output11th.textContent = total11th;
-        updateTotalAll();
+        updatetotalhigh();
+         updatetotalall();
     }
 });
 single11th.addEventListener("click", function () {
     total11th += 1;
     output11th.textContent = total11th;
-     updateTotalAll();
+     updatetotalhigh();
+      updatetotalall();
 });
 
 five11th.addEventListener("click", function () {
     total11th += 5;
     output11th.textContent = total11th;
-     updateTotalAll();
+     updatetotalhigh();
+      updatetotalall();
 });
 
 ten11th.addEventListener("click", function () {
     total11th += 10;
     output11th.textContent = total11th;
-     updateTotalAll();
+     updatetotalhigh();
+      updatetotalall();
 });
 
 zero11th.addEventListener("click", function () {
     total11th = 0;
     output11th.textContent = total11th;
-     updateTotalAll();
+     updatetotalhigh();
+      updatetotalall();
 });
 
 let single12th = document.getElementById("1Point12th");
@@ -262,45 +292,77 @@ addCustom12th.addEventListener("click", function () {
     if (!isNaN(value)) {
         total12th += value;
         output12th.textContent = total12th;
-        updateTotalAll();
+        updatetotalhigh();
+        updatetotalall();
     }
 });
 
 single12th.addEventListener("click", function () {
     total12th += 1;
     output12th.textContent = total12th;
-     updateTotalAll();
+     updatetotalhigh();
+      updatetotalall();
 });
 
 five12th.addEventListener("click", function () {
     total12th += 5;
     output12th.textContent = total12th;
-     updateTotalAll();
+     updatetotalhigh();
+      updatetotalall();
 });
 
 ten12th.addEventListener("click", function () {
     total12th += 10;
     output12th.textContent = total12th;
-     updateTotalAll();
+     updatetotalhigh();
+      updatetotalall();
 });
 
 zero12th.addEventListener("click", function () {
     total12th = 0;
     output12th.textContent = total12th;
-     updateTotalAll();
+     updatetotalhigh();
+      updatetotalall();
 });
 
-let outputAll = document.getElementById("totalAll");
-let totalAll = 0;
+let outputmiddle = document.getElementById("totalmiddle");
+let totalmiddle = 0;
 
-function updateTotalAll() {
+function updatetotalmiddle() {
     let sum =
         pointsix +
         totalseventh +
-        totaleighth +
+        totaleighth ;
+
+    outputmiddle.textContent = sum;
+}
+
+
+
+let outputhigh = document.getElementById("totalhigh");
+let totalhigh = 0;
+
+function updatetotalhigh() {
+    let sum =
         total9th +
         total10th +
         total11th +
         total12th;
+
+    outputhigh.textContent = sum;
+}
+let outputAll = document.getElementById("totalall");
+let totalall = 0;
+
+function updatetotalall() {
+    let sum =
+pointsix +
+totalseventh +
+totaleighth +
+    total9th +
+    total10th +
+    total11th +
+    total12th;
+
     outputAll.textContent = sum;
 }
