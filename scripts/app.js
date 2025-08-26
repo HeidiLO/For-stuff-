@@ -18,6 +18,7 @@ addCustom6th.addEventListener("click", function () {
 });
 single6th.addEventListener("click", function () {
    let totalsixth = pointsix += 1;
+   totalsixth *= 1.842;
     output.textContent = totalsixth;
      updatetotalmiddle();
      updatetotalall();
@@ -25,6 +26,7 @@ single6th.addEventListener("click", function () {
 
 five6th.addEventListener("click", function () {
     let pointsixs = pointsix += 5;
+    pointsixs *= 1.842;
     output.textContent = pointsixs;
     updatetotalmiddle();
     updatetotalall();
@@ -32,6 +34,7 @@ five6th.addEventListener("click", function () {
 
 ten6th.addEventListener("click", function () {
     let tens = pointsix += 10;
+    tens *= 1.842;
     output.textContent = tens;
     updatetotalmiddle();
     updatetotalall();   
@@ -65,6 +68,7 @@ addCustom7th.addEventListener("click", function () {
 });
 single7th.addEventListener("click", function () {
     let point = totalseventh += 1;
+     point *= 1.23;
     output7.textContent = point;
     updatetotalmiddle();
      updatetotalall();
@@ -72,6 +76,7 @@ single7th.addEventListener("click", function () {
 
 five7th.addEventListener("click", function () {
     let points = totalseventh += 5;
+     points *= 1.23;
     output7.textContent = points;
     updatetotalmiddle();
      updatetotalall();
@@ -79,6 +84,7 @@ five7th.addEventListener("click", function () {
 
 ten7th.addEventListener("click", function () {
     let tens = totalseventh += 10;
+       tens *= 1.23;
     output7.textContent = tens;
     updatetotalmiddle();
      updatetotalall();
@@ -157,22 +163,26 @@ addCustom9th.addEventListener("click", function () {
 });
 
 single9th.addEventListener("click", function () {
-    total9th += 1;
-    output9th.textContent = total9th;
+   let point = total9th += 1;
+   point *= 1.94;
+
+    output9th.textContent = point;
      updatetotalhigh();
       updatetotalall();
 });
 
 five9th.addEventListener("click", function () {
-    total9th += 5;
-    output9th.textContent = total9th;
+   let points = total9th += 5;
+   points *= 1.94;
+    output9th.textContent = points;
      updatetotalhigh();
       updatetotalall();
 });
 
 ten9th.addEventListener("click", function () {
-    total9th += 10;
-    output9th.textContent = total9th;
+   let points = total9th += 10;
+   points *= 1.94;
+    output9th.textContent = points;
     updatetotalhigh();
      updatetotalall();
 });
@@ -203,25 +213,29 @@ addCustom10th.addEventListener("click", function () {
     }
 });
 single10th.addEventListener("click", function () {
-    total10th += 1;
-    output10th.textContent = total10th;
+let point = total10th += 1;
+    point *= 2.386;
+    output10th.textContent = point;
      updatetotalhigh();
       updatetotalall();
 });
 
 five10th.addEventListener("click", function () {
-    total10th += 5;
-    output10th.textContent = total10th;
-    updatetotalhigh();
-     updatetotalall();
+   let points = total10th += 5;
+   points *= 2.386;
+   output10th.textContent = points;
+   updatetotalhigh();
+   updatetotalall();
 });
 
 ten10th.addEventListener("click", function () {
-    total10th += 10;
-    output10th.textContent = total10th;
-    updatetotalhigh();
-     updatetotalall();
+   let points = total10th += 10;
+   points *= 2.386;
+   output10th.textContent = points;
+   updatetotalhigh();
+   updatetotalall();
 });
+
 
 zero10th.addEventListener("click", function () {
     total10th = 0;
@@ -252,23 +266,31 @@ addCustom11th.addEventListener("click", function () {
 });
 single11th.addEventListener("click", function () {
     total11th += 1;
-    output11th.textContent = total11th;
-     updatetotalhigh();
-      updatetotalall();
+    let point = total11th;
+    point *= 3.886;
+    output11th.textContent = point;
+    updatetotalhigh();
+    updatetotalall();
 });
 
 five11th.addEventListener("click", function () {
     total11th += 5;
-    output11th.textContent = total11th;
-     updatetotalhigh();
-      updatetotalall();
+    let points = total11th;
+    points *= 3.88;
+    output11th.textContent = points;
+    updatetotalhigh();
+    updatetotalall();
 });
+
+
 
 ten11th.addEventListener("click", function () {
     total11th += 10;
-    output11th.textContent = total11th;
-     updatetotalhigh();
-      updatetotalall();
+    let points = total11th;
+    points *= 3.886;
+    output11th.textContent = points;
+    updatetotalhigh();
+    updatetotalall();
 });
 
 zero11th.addEventListener("click", function () {
@@ -298,24 +320,29 @@ addCustom12th.addEventListener("click", function () {
 });
 
 single12th.addEventListener("click", function () {
-    total12th += 1;
-    output12th.textContent = total12th;
-     updatetotalhigh();
-      updatetotalall();
+let points = total12th += 1;
+    points *= 2.1875;
+    output12th.textContent = points;
+    updatetotalhigh();
+    updatetotalall();
 });
 
 five12th.addEventListener("click", function () {
-    total12th += 5;
-    output12th.textContent = total12th;
-     updatetotalhigh();
-      updatetotalall();
+    let points = total12th += 5;
+    points *= 2.1875;
+    output12th.textContent = points;
+    updatetotalhigh();
+    updatetotalall();
 });
 
+     
+
 ten12th.addEventListener("click", function () {
-    total12th += 10;
-    output12th.textContent = total12th;
-     updatetotalhigh();
-      updatetotalall();
+    let points = total12th += 10;
+    points *= 2.1875;
+    output12th.textContent = points;
+    updatetotalhigh();
+    updatetotalall();
 });
 
 zero12th.addEventListener("click", function () {
