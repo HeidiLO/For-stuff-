@@ -37,44 +37,48 @@ body {
 }
 
 #total6th{
-  font-size:3em;
+  font-size:6em;
   font-weight: bold;
   color: #81066e;
 }
 
 #total7th{
-  font-size:3em;
+  font-size:6em;
   font-weight: bold;
   color: #ffffff;
 }
 
 #total8th{
-  font-size:3em;
+  font-size:6em;
   font-weight: bold;
   color: #ffffff;
 }
 
 #total9th{
-  font-size:3em;
+  font-size:6em;
   font-weight: bold;
   color: #ffffff;
 }
 
 #total10th{
-  font-size:3em;
+  font-size:6em;
   font-weight: bold;
   color: #ffffff;
 }
 
 #total11th{
-  font-size:3em;
+  font-size:6em;
   font-weight: bold;
   color: #ffffff;
 }
 
 #total12th{
-  font-size:3em;
+  font-size:6em;
   font-weight: bold;
   color: #ffffff;
 }
 
+.grid-item > div {
+  font-size: 1.5em;
+  font-weight: bold;
+}

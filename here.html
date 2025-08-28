@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter for spirit points</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="grid-container">
+  <div class="grid-item box6th" style="background: #ff008c;">
+    <div>6th spirit points</div>
+    <p style="color:#6f003d" id="total6th">0</p>
+  </div>
+  <div class="grid-item box7th" style="background: #fffd78;">
+    <div>7th spirit points</div>
+    <p style="color: #a6a30e" id="total7th">0</p>
+  </div>
+  <div class="grid-item box8th" style="background: #ad0000;">
+    <div>8th spirit points</div>
+    <p style="color: #4b0101" id="total8th">0</p>
+  </div>
+  <div class="grid-item box9th" style="background: #41027f;">
+    <div>9th spirit points</div>
+    <p style="color: #16012c" id="total9th">0</p>
+  </div>
+  <div class="grid-item box10th" style="background: #115b1f;">
+    <div>10th spirit points</div>
+    <p style="color: rgb(25, 44, 2)" id="total10th">0</p>
+  </div>
+  <div class="grid-item box11th" style="background: #ff9d00;">
+    <div>11th spirit points</div>
+    <p style="color: #8f5902" id="total11th">0</p>
+  </div>
+  <div class="grid-item box12th" style="background: #005897;">
+    <div>12th spirit points</div>
+    <p style="color: #00233c" id="total12th">0</p>
+  </div>
+  <div class="grid-item boxAll" style="background: #ffffff;">
+    <p style="font-size: larger;"></p>
+    <div>Total spirit points for Middle School</div>
+    <p style="color: black; font-size: 3em; font-weight: bold;" id="totalmiddle">0</p>
+    <div>Total spirit points for High School</div>
+    <p style="color: black; font-size: 3em; font-weight: bold;" id="totalhigh">0</p>
+    <div>Total spirit points for All</div>
+    <p style="color: black; font-size: 3em; font-weight: bold;" id="totalall">0</p>
+  </div>
+</div>
+<script>
+document.getElementById("total6th").textContent = localStorage.getItem('pointsix') || 0;
+document.getElementById("total7th").textContent = localStorage.getItem('totalseventh') || 0;
+document.getElementById("total8th").textContent = localStorage.getItem('totaleighth') || 0;
+document.getElementById("total9th").textContent = localStorage.getItem('total9th') || 0;
+document.getElementById("total10th").textContent = localStorage.getItem('total10th') || 0;
+document.getElementById("total11th").textContent = localStorage.getItem('total11th') || 0;
+document.getElementById("total12th").textContent = localStorage.getItem('total12th') || 0;
+
+    let middle = (
+        Number(localStorage.getItem('pointsix') || 0) +
+        Number(localStorage.getItem('totalseventh') || 0) +
+        Number(localStorage.getItem('totaleighth') || 0)
+    );
+    document.getElementById("totalmiddle").textContent = middle;
+
+    let high = (
+        Number(localStorage.getItem('total9th') || 0) +
+        Number(localStorage.getItem('total10th') || 0) +
+        Number(localStorage.getItem('total11th') || 0) +
+        Number(localStorage.getItem('total12th') || 0)
+    );
+    document.getElementById("totalhigh").textContent = high;
+
+    let all = middle + high;
+    document.getElementById("totalall").textContent = all;
+</script>
+</body>
+</html>
